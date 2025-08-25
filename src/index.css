@@ -1,0 +1,10 @@
+::root {
+  --main-color: #ffe81f;
+}
+
+body {
+  background-image: url("/src/assets/star-wars-bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
