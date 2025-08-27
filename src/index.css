@@ -1,5 +1,6 @@
-::root {
+:root {
   --main-color: #ffe81f;
+  --disabled-color: #a5a28b;
 }
 
 body {
@@ -7,4 +8,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  font-family: "Exo 2", sans-serif;
+  color: var(--main-color);
 }
