@@ -35,6 +35,11 @@ function App() {
           characters={characters}
           onCharacterClick={handleOnCharacterClick}
         />
+        <CharacterInfo
+          homeworld={homeworld}
+          character={selectedCharacter}
+          isHomeWorldLoading={isHomeworldLoading}
+        />
       </main>
     </>
   );
