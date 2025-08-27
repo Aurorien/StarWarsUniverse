@@ -31,8 +31,10 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <CharacterList />
-        <CharacterInfo />
+        <CharacterList
+          characters={characters}
+          onCharacterClick={handleOnCharacterClick}
+        />
       </main>
     </>
   );
